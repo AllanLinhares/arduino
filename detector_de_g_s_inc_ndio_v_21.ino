@@ -23,12 +23,12 @@ void setup()
 
 void loop()
 {
-  int temp = analogRead(pinoSensorTemp);
-  int gas = analogRead(pinoSensorGas);
   lcd.clear();
   lcd.setCursor(0,0);
   lcd.print("Verificando...");
   delay(2000);
+  int temp = analogRead(pinoSensorTemp);
+  int gas = analogRead(pinoSensorGas);
   if (temp < 219 && gas < 100){
   	lcd.clear();
   	lcd.setCursor(0,0);
