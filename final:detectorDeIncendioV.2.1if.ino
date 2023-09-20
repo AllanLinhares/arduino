@@ -42,8 +42,7 @@ void loop()
   		lcd.print("QUENTE!!!");
       	digitalWrite(pinoPiezo, HIGH);
     	lcd.blink();
-    	int i=0;
-      	for (i=0; i<5; i++){
+      	for (int i=0; i<5; i++){
       		digitalWrite(pinoAzul, HIGH);
           	digitalWrite(pinoVerde, HIGH);
       		delay(500);
@@ -58,8 +57,7 @@ void loop()
   		lcd.print("GAS!!!");
       	digitalWrite(pinoPiezo, HIGH);
     	lcd.blink();
-        int i=0;
-      	for (i=0; i<5; i++){
+      	for (int i=0; i<5; i++){
       		digitalWrite(pinoVermelho, HIGH);
           	digitalWrite(pinoAzul, HIGH);
       		delay(500);      	          	
@@ -74,8 +72,7 @@ void loop()
        	lcd.print("FOGO!!!");
        	digitalWrite(pinoPiezo, HIGH);
     	lcd.blink();
-        int i=0;
-      	for (i=0; i<5; i++){
+      	for (int i=0; i<5; i++){
           	digitalWrite(pinoVermelho, HIGH);
         	delay(500);
       		digitalWrite(pinoVermelho, LOW);
