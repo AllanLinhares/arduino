@@ -79,7 +79,6 @@ void loop()
           	delay(500);
         }
   }
-  delay(3000);
   lcd.noBlink();
   lcd.clear();
   digitalWrite(pinoVerde, LOW);
