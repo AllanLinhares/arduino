@@ -13,4 +13,3 @@ Vermelho piscando para temperatura e gás anormal
 -Resistor no LED RGB em 10k ohms
 -Resistor no sensor de gás em 1k ohm
 -Resistor no display lcd em 220 ohms
-# Falhas
